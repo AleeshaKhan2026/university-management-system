@@ -3,6 +3,7 @@ const API_BASE_URL = window.location.hostname === 'localhost' || window.location
     ? 'http://localhost:5000/api'
     : 'https://your-backend-url.onrender.com/api';
 
+
 // API Service Class
 class APIService {
     constructor() {
